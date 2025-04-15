@@ -1,1 +1,1 @@
-# Actividad---Clase-2
+# Actividad - Clase 2
