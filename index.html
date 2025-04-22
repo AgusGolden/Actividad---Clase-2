@@ -107,7 +107,7 @@
           <h1 class="titulo">EDUCACIÓN</h1>
           <hr class="subrayado">
           <div class="union-viñetas" id="u-v-educacion"></div>
-          <ul class="lista-externa">
+          <ol class="lista-externa">
             
             <li>
               <h2 class="subtitulo">Universidad Abierta Interamericana (UAI)</h2>
@@ -125,7 +125,7 @@
               </ul>
             </li>
             
-          </ul>
+          </ol>
           
         </article>
         
@@ -146,7 +146,7 @@
                 <li> <p>Control de Stock e Inventarios</p> </li>
               </ul>
             </li>
-              
+                
           </ul>
           
         </article>
@@ -169,62 +169,80 @@
   
             <li>
               <h2 class="subtitulo">Otros Conocimientos</h2>
-              
-              <ul class="lista-interna" id="otros-conocimientos">
-                <li> <p>Excel: avanzado</p> </li>
-                <li> <p>Access: avanzado</p> </li>
-                <li> <p>C++: intermedio</p> </li>
-                <li> <p>C#: intermedio</p> </li>
-                <li> <p>HTML: avanzado</p> </li>
-                <li> <p>CSS: avanzado</p> </li>
-                <li> <p>JS: intermedio</p> </li>
-                <li> <p>SQL: avanzado</p> </li>
-              </ul>
+              <table class="tabla-conocimientos">
+                <thead>
+                  <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Excel</td>
+                    <td>Avanzado</td>
+                  </tr>
+                  <tr>
+                    <td>Access</td>
+                    <td>Avanzado</td>
+                  </tr>
+                  <tr>
+                    <td>C++</td>
+                    <td>Intermedio</td>
+                  </tr>
+                  <tr>
+                    <td>C#</td>
+                    <td>Intermedio</td>
+                  </tr>
+                  <tr>
+                    <td>HTML</td>
+                    <td>Avanzado</td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td>Avanzado</td>
+                  </tr>
+                  <tr>
+                    <td>JS</td>
+                    <td>Intermedio</td>
+                  </tr>
+                  <tr>
+                    <td>SQL</td>
+                    <td>Avanzado</td>
+                  </tr>
+                </tbody>
+              </table>
             </li>
+            
           </ul>
           
         </article>
         
       </section>
-    
-    </div>
 
+      <!-- Formulario de suscripción -->
+      <section id="suscripcion">
+        <h1>Formulario de Suscripción</h1>
+        <form action="#" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+          
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          
+          <button type="submit">Suscribirse</button>
+        </form>
+      </section>
+
+    </div>
+    
   </div>
 
 </body>
 
 </html>
-
-
-
-
-<!-- 
-<ul class="lista-idiomas">
-  <li>
-    <p class="idioma">Español</p>
-    <hr class="barra">
-    <p class="porcentaje">100%</p>
-  </li>
-  <li>
-    <p class="idioma">Inglés</p>
-    <hr class="barra">
-    <p class="porcentaje">80%</p>
-  </li>
-</ul>
--->
-<!-- 
-<div class="contenedor-idiomas">
-  <div class="columna-idioma">
-    <p>Español</p>
-    <p>Inglés</p>
-  </div>
-  <div class="barra-idioma">
-    <hr> 
-    <hr> 
-  </div>
-  <div class="porcentaje-idioma">
-    <p>100%</p>
-    <p>80%</p>
-  </div>
-</div>
--->
